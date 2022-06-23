@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- navigation bar -->
+<nav class="navbar">
+    <ul class="link-group">
+        <li class="link active"><a href="#">home</a></li>
+        <li class="link"><a href="#">projects</a></li>
+        <li class="link"><a href="#">about</a></li>
+    </ul>
+</nav>
+
+<!-- home section -->
+<!--add active to start-->
+<section class="home-section active ">
+    <h1 class="hero-heading">Hi, I am <br> Harsh Patel</h1>
+    <img src="Images/harsh.jpg" class="harsh-img" alt="">
+</section>
+
+<!-- project section -->
+<section class="project-section ">
+    <h1 class="project-heading">My Projects</h1>
+    <div class="project-container">
+        <div class="project-card">
+            <img src="Images/qr-code-game.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">QR-code-game</h1>
+                <p class="project-info">
+                A QR code app which lets user scan the qr code and know the worth of their QR code and show their ranking.
+                </p>
+                <div class="project-btn-grp">
+                    <button id = "github_btn_qr" onclick="qr_code()" class="project-btn github">github repo</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="Images/wildfire.jpg" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">Alberta Wildfire Prediction</h1>
+                <p class="project-info">
+                    This is alberta wildfire prediction model where from the past data I predict it about the following day.
+                </p>
+                <div class="project-btn-grp">
+                    <button id = "github_btn_wildlife" onclick="wildfire()" class="project-btn github">github repo</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="Images/portfolio.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">Persnoal Portfolio</h1>
+                <p class="project-info">
+                    This is my personal portfolio made with HTML,CSS and JS.
+                </p>
+                <div class="project-btn-grp">
+                    <button id = "github_btn_portfolio" onclick="portfolio()" class="project-btn github">github repo</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="Images/movie_recommender.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">Movie-Recommender</h1>
+                <p class="project-info">
+                    This is movie recommender system made with machine learning concept and deployed that application with heroku.
+                </p>
+                <div class="project-btn-grp">
+                    <button id = "github_btn_movie_recommender" onclick="movie_recommender()" class="project-btn github">github repo</button>
+                </div>
+            </div>
+        </div>
+<!-- 
+        <div class="project-card">
+            <img src="Images/qr-code-game.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">project 01</h1>
+                <p class="project-info">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
+                </p>
+                <div class="project-btn-grp">
+                    <button class="project-btn github">github repo</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="Images/qr-code-game.png" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">project 01</h1>
+                <p class="project-info">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
+                </p>
+                <div class="project-btn-grp">
+                    <button class="project-btn github">github repo</button>
+                </div>
+            </div>
+        </div> -->
+
+
+    </div>
+
+</section>
+
+    <!--About Section-->
+
+    <section class="about-section">
+        <div class="about">
+            <div class="about-img-container">
+                <img src="Images/harsh.jpg" class="about-img" alt="">
+                <button class="resume_btn">Resume</button>
+                <button id = "btn_linkedin" onclick="linkedin()" class="linkedin_btn">Linkedin</button>
+            </div>
+            <p class="about-info">I am an undergraduate computing science student at Universiy of Alberta. I like to design and build applications that save time in task. One of my main interest is in machine learning. I am done my second year in University and the courses I have taken are Algorithms and Data Structures, Databses, Intro to ML, Software Engineering.</p>
+        </div>
+
+        <!--Technologies--> 
+        <div class="Technologies">
+            <h1 class="heading">Technologies</h1>
+            <div class="Tech-container">
+                <div class="Tech-card">
+                    <img src="Images/html.png" class="Tech-img" alt="">
+                    <h1 class="Tech-name">HTML</h1>
+                </div>
+
+                <div class="Tech-card">
+                    <img src="Images/css.png" class="Tech-img" alt="">
+                    <h1 class="Tech-name">CSS</h1>
+                </div>
+
+                <div class="Tech-card">
+                    <img src="Images/js.png" class="Tech-img" alt="">
+                    <h1 class="Tech-name">JS</h1>
+                </div>
+
+                <div class="Tech-card">
+                    <img src="Images/python.jpg" class="Tech-img" alt="">
+                    <h1 class="Tech-name">PYTHON</h1>
+                </div>
+
+                <div class="Tech-card">
+                    <img src="Images/sql.png" class="Tech-img" alt="">
+                    <h1 class="Tech-name">SQL</h1>
+                </div>
+
+                <div class="Tech-card">
+                    <img src="Images/java.png" class="Tech-img" alt="">
+                    <h1 class="Tech-name">JAVA</h1>
+                </div>
+
+                <div class="Tech-card">
+                    <img src="Images/mongoDB.png" class="Tech-img" alt="">
+                    <h1 class="Tech-name">MONGODB</h1>
+                </div>
+
+                <div class="Tech-card">
+                    <img src="Images/firebase.png" class="Tech-img" alt="">
+                    <h1 class="Tech-name">FIRESTORE</h1>
+                </div>
+
+        </div>
+
+
+    <!-- timeline -->
+<div class="timeline">
+    <h1 class="heading">education and experience</h1>
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">2020-2024</h1>
+            <p class="card-detail">Universiy Of Alberta:
+                Revelant Courses: Sofware Engineering, Databases, Algorithms & Data Structures and Intro to ML
+            </p>
+        </div>
+    </div>
+</div>     
+    </section>
+
+<script src="app.js"></script>
+</body>
