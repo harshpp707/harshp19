@@ -30,3 +30,11 @@ function qr_code(){
 function linkedin(){
     window.open("https://www.linkedin.com/in/harsh-patel-528804202/", "_blank")
 }
+
+function portfolio(){
+    window.open("https://www.linkedin.com/in/harsh-patel-528804202/", "_blank")
+}
+
+function movie_recommender(){
+    window.open("https://github.com/CMPUT301W22T23/QR-Code-Game", "_blank")
+}
